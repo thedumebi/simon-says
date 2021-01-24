@@ -29,7 +29,7 @@ function nextSequence() {
   var nextButton = buttons[nextNumber];
   gameSequence.push(nextButton);
   console.log("gameSequence", gameSequence);
-$("#" + nextButton).fadeIn(100).fadeOut(100).fadeIn(100);
+  $("#" + nextButton).fadeIn(100).fadeOut(100).fadeIn(100);
   playSound(nextButton);
 
 }
